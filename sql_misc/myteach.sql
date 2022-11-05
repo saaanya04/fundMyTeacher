@@ -15,10 +15,10 @@
 -- UPDATE teacherinfo SET subject = 'English', supplylist = 'pens', supplycost = 1000000  WHERE tid = 1 
 -- INSERT INTO schoolinfo (name, street, city, state, zipcode, stype, district) 
 -- VALUES ('Redlands East Valley', '31000 E Colton Ave', 'Redlands', 'California', '92374', 'High School', 'Redlands Unified School District');
--- UPDATE teacherinfo SET subject = 'Math', supplylist = 'Baekhyun merch', supplycost = 99999  WHERE tid = 2 
+-- UPDATE teacherinfo SET subject = 'Math', supplylist = 'Calculators', supplycost = 99999  WHERE tid = 2 
 -- INSERT INTO teacherinfo (firstname, lastname, schoolid) VALUES ('Pam', 'Holcombe', 2)
 -- UPDATE teacherinfo SET schoolid = 3 WHERE tid = 3
--- UPDATE teacherinfo SET subject = 'English', supplylist = 'Ty track', supplycost = '2839' WHERE tid = 3
+-- UPDATE teacherinfo SET subject = 'English', supplylist = 'Paper', supplycost = '30' WHERE tid = 3
 -- UPDATE teacherinfo set schoolid = 2 WHERE tid =3
 -- DELETE FROM teacherinfo WHERE tid = 4 OR tid = 5
 -- INSERT INTO teacherinfo (firstname, lastname, schoolid, subject, supplylist, supplycost) VALUES ('Corinne', 'Flowers', 1, 'English', 'Hand sanitizer', 10)
@@ -29,14 +29,12 @@
 -- UPDATE teacherinfo SET lastname = 'Cabrera' WHERE tid = 4
 -- UPDATE teacherinfo SET tid = 5 WHERE firstname = 'Corinne'
 -- INSERT INTO teacherinfo (firstname, lastname, schoolid, subject, supplylist, supplycost) VALUES ('Nelson', 'Laurel', 1, 'Biology', 'Pencils', 50)
--- INSERT INTO teacherinfo (firstname, lastname, schoolid, subject, supplylist, supplycost) VALUES ( 'Alisa', 'Beal', 1, 'English', 'Taeyong, his hotness', 100000);
 -- INSERT INTO teacherinfo (firstname, lastname, schoolid, subject, supplylist, supplycost) VALUES ('Matthew', 'Johnston', 1, 'Math', 'Staples', 30)
 -- INSERT INTO teacherinfo (firstname, lastname, schoolid, subject, supplylist, supplycost) VALUES ('Lauren', 'Holcombe', 1, 'English', 'Pencils, Paper', '50')
 -- INSERT INTO teacherinfo (firstname, lastname, schoolid, subject, supplylist, supplycost) VALUES ('Matt','Jakstis', 1, 'English', 'Tissues, Hand Sanitizer', 20)
 -- INSERT INTO teacherinfo (firstname, lastname, schoolid, subject, supplylist, supplycost) VALUES('Denise', 'Casey', 1, 'Math', 'Tissues, Rulers', 57)
 -- INSERT INTO teacherinfo (firstname, lastname, schoolid, subject, supplylist, supplycost) VALUES ('Amber', 'Jacobsen', 1, 'Physical Education', 'Frisbees', 60)
 -- INSERT INTO teacherinfo (firstname, lastname, schoolid, subject, supplylist, supplycost) VALUES ('Luis', 'Chanure', 1, 'Spanish', 'Notebooks, Pencils', 80)
--- INSERT INTO teacherinfo (firstname, lastname, schoolid, subject, supplylist, supplycost) VALUES ( 'Brian', 'Rice', 1, 'English', 'Jaemin"s bicycle', 250)
 -- INSERT INTO teacherinfo (firstname, lastname, schoolid, subject, supplylist, supplycost) VALUES ( 'Jennifer', 'Classen', 1, 'Physical Education', 'So
 -- INSERT INTO teacherinfo (firstname, lastname, schoolid, subject, supplylist, supplycost) VALUES ( 'Kevin', 'Haugh', 1, 'Computer Science', 'Hand Wipes', 20)
 -- INSERT INTO teacherinfo (firstname, lastname, schoolid, subject, supplylist, supplycost) VALUES ( 'Matt', 'Fry', 1, 'Chemistry', 'Hand Sanitizer', 20)
@@ -44,9 +42,9 @@
 -- INSERT INTO teacherinfo (firstname, lastname, schoolid, subject, supplylist, supplycost) VALUES ('Adams', 'Randy', 1, 'Math', 'Compasses, Rulers', 30)
 -- INSERT INTO teacherinfo (firstname, lastname, schoolid, subject, supplylist, supplycost) VALUES ( 'Ali', 'Jamila', 1, 'Math', 'Protactors', 40)
 -- INSERT INTO teacherinfo (firstname, lastname, schoolid, subject, supplylist, supplycost) VALUES ( 'Lisa', 'Dewey', 1, 'English', 'Paperclips', 15)
--- INSERT INTO teacherinfo (firstname, lastname, schoolid, subject, supplylist, supplycost) VALUES ( 'Ashley', 'Wilder', 1, 'United States History', 'Coloering Pencils', 20)
+-- INSERT INTO teacherinfo (firstname, lastname, schoolid, subject, supplylist, supplycost) VALUES ( 'Ashley', 'Wilder', 1, 'United States History', 'Coloring Pencils', 20)
 -- INSERT INTO teacherinfo (firstname, lastname, schoolid, subject, supplylist, supplycost) VALUES ( 'Benjamin', 'Tilson', 1, 'French', 'Pencils', 20)
--- UPDATE teacherinfo SET supPlylist = 'Coloring Pencils' WHERE firstname = 'ASHLEY'
+-- UPDATE teacherinfo SET supplylist = 'Coloring Pencils' WHERE firstname = 'ASHLEY'
 -- INSERT INTO teacherinfo (firstname, lastname, schoolid, subject, supplylist, supplycost) VALUES ( 'Sarah', 'Craw', 1, 'Math', 'Rulers', 15)
 -- INSERT INTO teacherinfo (firstname, lastname, schoolid, subject, supplylist, supplycost) VALUES ( 'Joshua', 'Murguia', 1, 'English', 'Lined Paper', 20)
 -- INSERT INTO teacherinfo (firstname, lastname, schoolid, subject, supplylist, supplycost) VALUES ( 'Kristi', 'Marshall', 1, 'Math', 'Rulers', 20)
