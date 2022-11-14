@@ -1,0 +1,27 @@
+{% extends "fundmyclass/header.html" %}
+
+{% block content %}
+        <form method="POST">
+            {% csrf_token %}
+            {{form.as_p}}
+
+            <button class="btn" style="background-color:pink; color:blue" type="submit">register</button>
+        </form>
+
+    If you already have an account, <a href="/login"><strong>login</strong></a> instead.
+{% endblock %}
+
+
+
+
+
+   ''' def search(request):
+               #if request.method == 'POST':
+                   search_name = request.POST.get('textfield', None)
+                   search = TeacherInfo.objects.get(first_name = search_name)
+                   name= TeacherInfo.objects.filter(first_name__contains= search)
+                      #name = TeacherInfo.objects.filter(first_name__startswith="J")
+                      #print (name)
+               return render(request,
+                           "fundmyclass/search.html",
+                               context={"teacherinfo": name}) '''

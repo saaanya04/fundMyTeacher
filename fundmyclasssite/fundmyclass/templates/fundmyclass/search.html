@@ -1,0 +1,32 @@
+{% extends "fundmyclass/header.html" %}
+
+{% block content %}
+
+  <form  method="get">
+    {% csrf_token %}
+    {{ form }}
+    <!--<input class="NameForm" name="q" type="text" value="{{ request.GET.q }}" placeholder="Search.../>"-->
+    <input type="submit" value="Submit" />
+  </form>
+
+
+  <div class="row">
+    {% for teach in teacherinfo %}
+      <div class="col s12 m6">
+        <div class="card blue-grey darken-1">
+          <div class="card-content white-text">
+            <span class="card-title">{{teach.first_name}}</span>
+            <p>{{teach.last_name}}</p>
+            <p style="font-size:70%">{{teach.supply_list}}</p>
+          </div>
+          <div class="card-action">
+            <a href="#">This is a link</a>
+            <a href="#">This is a link</a>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
+{% endblock %}
+

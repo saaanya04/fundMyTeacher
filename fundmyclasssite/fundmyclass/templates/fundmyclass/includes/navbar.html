@@ -1,0 +1,21 @@
+      <nav>
+        <div class="nav-wrapper">
+          <a href="/" class="brand-logo"><i class="material-icons">cloud</i>Fund My Class</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="/">Home</a></li>
+            {% if user.is_authenticated %}
+                <li><a href="/account">{{user.username}}</a></li>
+                <li><a href="/logout">Logout</a></li>
+            {% else %}
+                <li><a href="/register">Register</a></li>
+                <li><a href="/login">Login as a Teacher</a></li>
+                <li><a href="/search">Search for a Teacher</a></li>
+                <li><a href="/registerTeacher">Register as a Teacher</a></li>
+            {% endif %}
+          </ul>
+        </div>
+      </nav>
+
+
+
+<!-- put where teach is authenticateed tags: if user.is_authenticated  -->

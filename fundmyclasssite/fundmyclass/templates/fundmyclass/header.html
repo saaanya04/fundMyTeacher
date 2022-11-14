@@ -1,0 +1,32 @@
+<head>
+    {% load static %}
+    <!-- Compiled and minified CSS -->
+    <link  rel="stylesheet" href="{% static 'fundmyclass/css/materialize.css' %}">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- For icons in materialize --->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- background image -->
+    <!-- <link rel="preload" href="https://i.pinimg.com/originals/b0/42/c1/b042c185636cd64ce1a8e2ab1f5ea5c7.jpg" as="image"> -->
+       <style>
+    body {
+        background-image: url('static/fundmyclass/bbh.jpg');
+    }
+    </style>
+</head>
+
+<body>
+
+      {% include "fundmyclass/includes/navbar.html" %}
+      {% include "fundmyclass/includes/messages.html" %}
+
+      <div class="container">
+        <br>
+        {% block content %}
+        {% endblock %}
+      </div>
+
+
+</body>
+
+
